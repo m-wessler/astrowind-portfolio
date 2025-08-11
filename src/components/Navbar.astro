@@ -1,0 +1,20 @@
+---
+const navLinks = [
+  { href: '/', label: 'Home' },
+  { href: '/about', label: 'About Me' },
+  { href: '/work', label: 'Work' },
+  { href: '/projects', label: 'Projects' },
+  { href: '/travel', label: 'Travel' },
+  { href: '/adventure', label: 'Adventure' },
+];
+---
+<nav class="bg-white shadow sticky top-0 z-50">
+  <div class="max-w-4xl mx-auto flex items-center justify-between p-4">
+    <div class="text-lg font-semibold">Michael Wessler</div>
+    <ul class="flex space-x-4">
+      {navLinks.map(link => (
+        <li><a class="hover:text-blue-600" href={link.href}>{link.label}</a></li>
+      ))}
+    </ul>
+  </div>
+</nav>

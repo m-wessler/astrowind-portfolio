@@ -1,0 +1,12 @@
+---
+import Layout from "../components/Layout.astro";
+import Navbar from "../components/Navbar.astro";
+import Hero from "../components/Hero.astro";
+---
+<Layout title="Home">
+  <Navbar slot="navbar" />
+  <Hero 
+    title="Michael Wessler" 
+    subtitle="Meteorologist at the National Weather Service | Data-driven forecasting, climate analysis, and environmental science." 
+    image="/images/hero.jpg" />
+</Layout>
