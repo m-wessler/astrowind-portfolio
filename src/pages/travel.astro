@@ -4,6 +4,70 @@ import Navbar from "../components/Navbar.astro";
 ---
 <Layout title="Travel">
   <Navbar slot="navbar" />
-  <h1 class="text-3xl font-bold mb-4">Travel</h1>
-  <p class="text-lg">From New England to the Intermountain West, my career and personal life have taken me across diverse landscapes...</p>
+  <h1 class="text-3xl font-bold mb-8">Travel</h1>
+  
+  <div class="mb-8">
+    <p class="text-lg">From New England to the Intermountain West, my career and personal life have taken me across diverse landscapes, each teaching me something new about weather, climate, and the natural world.</p>
+  </div>
+
+  <!-- Story Block 1 -->
+  <div class="mb-12 bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
+    <h2 class="text-xl font-semibold mb-4">The Journey Begins: New England Roots</h2>
+    <p class="text-gray-700 dark:text-gray-300 mb-4">
+      My journey started along the rugged coastline of New England, where the meeting of land and sea creates some of the most dynamic weather patterns in the country. Growing up here instilled in me a deep appreciation for the power and beauty of nature's forces.
+    </p>
+    <p class="text-gray-700 dark:text-gray-300">
+      From the fog-shrouded peaks of Mount Washington to the storm-battered shores of Maine, every experience shaped my understanding of meteorology and my passion for outdoor adventure.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+    <div class="group">
+      <img src="/images/travel1.svg" alt="New England Coast" class="w-full h-48 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+      <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">The rocky coastline where I first learned to read weather patterns</p>
+    </div>
+    <div class="group">
+      <img src="/images/travel2.svg" alt="Rocky Mountains" class="w-full h-48 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+    </div>
+  </div>
+
+  <!-- Story Block 2 -->
+  <div class="mb-12 bg-blue-50 dark:bg-blue-900/20 p-6 rounded-lg">
+    <h2 class="text-xl font-semibold mb-4">Westward Bound: The Rocky Mountain Experience</h2>
+    <p class="text-gray-700 dark:text-gray-300 mb-4">
+      The transition from coastal New England to the high peaks of the Rocky Mountains marked a turning point in my career. Here, I encountered completely different atmospheric dynamics - from chinook winds to orographic precipitation patterns that challenged everything I thought I knew about weather.
+    </p>
+    <p class="text-gray-700 dark:text-gray-300">
+      Working as a meteorologist in Colorado taught me that weather is deeply tied to geography, and every landscape tells its own atmospheric story. The thin air at altitude, the dramatic temperature swings, and the spectacular thunderstorms became my new classroom.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+    <div class="group">
+      <img src="/images/travel3.svg" alt="Utah Desert" class="w-full h-48 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+      <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Desert landscapes of Utah - where heat and aridity create unique microclimates</p>
+    </div>
+    <div class="group">
+      <img src="/images/travel4.svg" alt="Pacific Northwest" class="w-full h-48 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+    </div>
+    <div class="group">
+      <img src="/images/travel5.svg" alt="Great Plains Storms" class="w-full h-48 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+      <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Storm chasing across the Great Plains - nature's most powerful displays</p>
+    </div>
+  </div>
+
+  <!-- Story Block 3 -->
+  <div class="mb-8 bg-green-50 dark:bg-green-900/20 p-6 rounded-lg">
+    <h2 class="text-xl font-semibold mb-4">Connecting the Dots: Weather as a Universal Language</h2>
+    <p class="text-gray-700 dark:text-gray-300 mb-4">
+      Each region I've explored has contributed to a broader understanding of how our atmosphere works as a connected system. From the marine layers of the Pacific Coast to the supercells of Tornado Alley, I've learned that weather knows no boundaries.
+    </p>
+    <p class="text-gray-700 dark:text-gray-300">
+      This journey across America's diverse landscapes has reinforced my belief that to truly understand weather, you must experience it firsthand - feeling the wind, watching the clouds, and respecting the power of nature in all its forms.
+    </p>
+  </div>
+
+  <div class="text-center">
+    <p class="text-gray-600 dark:text-gray-400 italic">Every mile traveled, every storm observed, every summit reached - all contributing to a deeper understanding of our dynamic atmosphere.</p>
+  </div>
 </Layout>

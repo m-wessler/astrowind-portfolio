@@ -4,6 +4,49 @@ import Navbar from "../components/Navbar.astro";
 ---
 <Layout title="Adventure">
   <Navbar slot="navbar" />
-  <h1 class="text-3xl font-bold mb-4">Adventure</h1>
-  <p class="text-lg">Former Extended Wilderness Trip Leader for the Chewonki Foundation and Summit Intern at Mount Washington Observatory...</p>
+  <h1 class="text-3xl font-bold mb-8">Adventure</h1>
+  
+  <div class="mb-8">
+    <p class="text-lg">Former Extended Wilderness Trip Leader for the Chewonki Foundation and Summit Intern at Mount Washington Observatory. My passion for outdoor adventure has taken me across diverse landscapes and challenging conditions.</p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- Image with caption -->
+    <div class="group">
+      <img src="/images/adventure1.svg" alt="Mountain Adventure" class="w-full h-48 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+      <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Summit day on Mount Washington - perfect conditions for weather observations</p>
+    </div>
+
+    <!-- Image without caption -->
+    <div class="group">
+      <img src="/images/adventure2.svg" alt="River Expedition" class="w-full h-48 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+    </div>
+
+    <!-- Image with caption -->
+    <div class="group">
+      <img src="/images/adventure3.svg" alt="Rock Climbing" class="w-full h-48 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+      <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Multi-pitch climbing in the White Mountains during summer expedition season</p>
+    </div>
+
+    <!-- Image with caption -->
+    <div class="group">
+      <img src="/images/adventure4.svg" alt="Winter Expedition" class="w-full h-48 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+      <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Winter camping and snow science work in the Presidential Range</p>
+    </div>
+
+    <!-- Image without caption -->
+    <div class="group">
+      <img src="/images/adventure5.svg" alt="Desert Backpacking" class="w-full h-48 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+    </div>
+
+    <!-- Image with caption -->
+    <div class="group">
+      <img src="/images/adventure6.svg" alt="Forest Hiking" class="w-full h-48 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+      <p class="mt-2 text-sm text-gray-600 dark:text-gray-400">Leading extended wilderness trips through Maine's pristine backcountry</p>
+    </div>
+  </div>
+
+  <div class="mt-12 text-center">
+    <p class="text-gray-600 dark:text-gray-400 italic">Adventures from coast to mountains, teaching wilderness skills and environmental stewardship.</p>
+  </div>
 </Layout>
